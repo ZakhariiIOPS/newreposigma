@@ -1,0 +1,6 @@
+services:
+  my_service:
+    image: registry.gitlab.com/zakharii/pigfromvsc:first
+    restart: always
+    ports:
+      - "4321:8000"
